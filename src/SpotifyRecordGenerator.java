@@ -8,8 +8,8 @@ public class SpotifyRecordGenerator {
 
 
         //STANDARD FILE
-        /*Scanner sc = new Scanner(new File(".\\src\\Spotify top 50.csv"));
-        SpotifyRecord[] spotifyRecords = new SpotifyRecord[603];*/
+        Scanner sc = new Scanner(new File(".\\src\\Spotify top 50.csv"));
+        SpotifyRecord[] spotifyRecords = new SpotifyRecord[603];
 
         //10, 100, 500 & 100 record files imported and commented out for ease of time complexity Qs
 
@@ -26,8 +26,8 @@ public class SpotifyRecordGenerator {
         SpotifyRecord[] spotifyRecords = new SpotifyRecord[500];*/
 
         //1000 RECORD FILE
-        Scanner sc = new Scanner(new File(".\\src\\Spotify top 50 (1000).csv"));
-        SpotifyRecord[] spotifyRecords = new SpotifyRecord[1000];
+        /*Scanner sc = new Scanner(new File(".\\src\\Spotify top 50 (1000).csv"));
+        SpotifyRecord[] spotifyRecords = new SpotifyRecord[1000];*/
 
         // this will just print the header in CSV file
         sc.nextLine();
